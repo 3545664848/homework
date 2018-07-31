@@ -1,0 +1,418 @@
+=====0a852f=====127.0.0.1=====normal=====
+127.0.0.1	2018-07-31 20:37:38	GET	/hello
+=====0a852f=====0.2044820786=====1.0811 MB:1.4833 MB=====5:5.4055 MB=====
+
+=====47c1f6=====127.0.0.1=====normal=====
+127.0.0.1	2018-07-31 20:37:40	GET	/hello
+=====47c1f6=====0.0407569408=====876.4844 KB:1.259 MB=====25:21.3985 MB=====
+
+=====d1c452=====127.0.0.1=====normal=====
+127.0.0.1	2018-07-31 20:37:46	GET	/
+=====d1c452=====0.2295122147=====1.1002 MB:1.5107 MB=====5:5.5008 MB=====
+
+=====8c3062=====127.0.0.1=====normal=====
+127.0.0.1	2018-07-31 20:37:53	GET	/
+=====8c3062=====0.0784449577=====1.1002 MB:1.5082 MB=====13:14.3031 MB=====
+
+=====2ef575=====127.0.0.1=====normal=====
+127.0.0.1	2018-07-31 20:40:44	GET	/
+=====2ef575=====0.4150569439=====1.0996 MB:1.5069 MB=====3:3.2989 MB=====
+
+=====ab3515=====127.0.0.1=====normal=====
+127.0.0.1	2018-07-31 20:40:56	GET	/dev%E3%80%82php
+=====ab3515=====0.0407938957=====878.0391 KB:1.2603 MB=====25:21.4365 MB=====
+
+=====3b79a2=====127.0.0.1=====debug=====
+127.0.0.1	2018-07-31 20:41:01	GET	/
+	[0.0196828842 s : 345.12 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:58]		suda\core\System#init	system init
+	[0.0211520195 s : 432.83 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:111]		suda\core\System#readManifast	reading manifast file
+	[0.0218830109 s : 435.33 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:104]		suda\core\System#console	loading application suda\core\Application from E:\website\suda-study\public/../app
+	[0.0234220028 s : 507.93 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:81]		suda\core\Application#__construct	application load E:\website\suda-study\public/../app
+	[0.0248739719 s : 510.74 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\suda\system\resource\modules/dxkite-suda/module.json
+	[0.0280790329 s : 708.52 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\app\modules/app/module.json
+	[0.0284080505 s : 711.2 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:329]		live modules	["demo\/app:1.0.0-dev","dxkite\/suda:1.0.6"]
+	[0.0287089348 s : 711.27 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Hook.php:31]		suda\core\Hook#loadConfig	E:\website\suda-study\app\modules/app/resource/config/listener.json
+	[0.0296330452 s : 713.03 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:117]		suda\template\Manager#theme	change themes:default
+	[0.0302090645 s : 730.35 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0303790569 s : 730.33 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0305869579 s : 729.16 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init application 0.010734s
+	[0.0306971073 s : 731.51 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:357]		reachable modules	["demo\/app:1.0.0-dev"]
+	[0.0307540894 s : 731.66 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:71]		suda\core\Router#load	load module:demo/app:1.0.0-dev path:E:\website\suda-study\app\modules/app
+	[0.0323660374 s : 793.81 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:76]		suda\core\Router#load	loading simple route from file E:\website\suda-study\app\modules/app/resource/config/router.json
+	[0.0340719223 s : 792.94 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init router 0.003417s
+	[0.0341610909 s : 796.88 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args [{}]
+	[0.0342249870 s : 794.05 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process dispatch 0.000090s
+	[0.0354840755 s : 825.1 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:375]		suda\core\Application#activeModule	active module demo/app:1.0.0-dev
+	[0.0366148949 s : 825.3 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:381]		suda\core\Application#activeModule	set locale zh-CN
+	[0.0378589630 s : 828.11 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:97]		parse command cn\atd3\response\IndexResponse->onRequest	["cn\\atd3\\response\\IndexResponse->onRequest","cn\\atd3\\response\\IndexResponse","->","onRequest"]
+	[0.0386729240 s : 847.71 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command cn\atd3\response\IndexResponse->onRequest with args [{}]
+	[0.0428409576 s : 854.81 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:133]		suda\template\compiler\suda\Compiler#compile	process compile demo/app:1.0.0-dev:index 0.002043s
+	[0.0490760803 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\SQLQuery.php:263]		suda\archive\Connection#connect	process connect database 0.000932s
+	[0.0491919518 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\Connection.php:83]		suda\archive\Connection#connect	connected (0) DB Connection {mysql:host=127.0.0.1;charset=utf8;port=3306}
+	[0.0554139614 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "show columns from dx_test;" 0.005864s
+	[0.0554978848 s : 1.11 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		show columns from dx_test;	[]
+	[0.1383910179 s : 1.14 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:146]		suda\archive\RawQuery#__query	process SQL Query 0 "INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);" 0.080417s
+	[0.1386408806 s : 1.14 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);	{"name0":{"name":"name","value":"dxkite"},"value1":{"name":"value","value":"2018-07-31 20:41:01 get request  from 127.0.0.1"}}
+	[0.1411759853 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;" 0.001344s
+	[0.1415159702 s : 1.16 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;	[]
+	[0.1421411037 s : 1.14 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:99]		start render	demo/app:1.0.0-dev:index
+	[0.1427469254 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:91]		suda\template\compiler\suda\Template#echo	process render demo/app:1.0.0-dev:index 0.000436s
+	[0.1429009438 s : 1.14 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:107]		free render [3115]	demo/app:1.0.0-dev:index
+	[0.1430299282 s : 1.14 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:59]		suda\template\compiler\suda\Template#render	echo demo/app:1.0.0-dev:index
+	[0.1438748837 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:336]		suda\core\Router#runRouter	process request 0.106017s
+	[0.1440370083 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process run router 0.108667s
+	[0.1441419125 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process run request 0.109987s
+	[0.1444849968 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:140]		suda\core\Debug#timeEnd	process before shutdown 0.000239s
+	[0.1446089745 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.1449909210 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:150]		suda\core\Cache#gc	process cache gc 0.000257s
+	[0.1450989246 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.1451859474 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:152]		suda\core\System#onShutdown	connection status normal
+	[0.1452479362 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:155]		suda\core\System#onShutdown	system shutdown
+	[0.1453208923 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:156]		suda\core\Debug#timeEnd	process shutdown 0.000745s
+	[0.1455268860 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Debug.php:406]		suda\core\Debug#afterSystemRun	process system 0.126915s
+=====3b79a2=====0.1457099915=====1.1118 MB:1.5284 MB=====7:7.7824 MB=====
+
+=====f4d6e4=====127.0.0.1=====debug=====
+127.0.0.1	2018-07-31 20:44:43	GET	/
+	[0.0111520290 s : 345.26 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:58]		suda\core\System#init	system init
+	[0.0120601654 s : 432.97 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:111]		suda\core\System#readManifast	reading manifast file
+	[0.0130870342 s : 435.47 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:104]		suda\core\System#console	loading application suda\core\Application from E:\website\suda-study\public/../app
+	[0.0143861771 s : 508.07 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:81]		suda\core\Application#__construct	application load E:\website\suda-study\public/../app
+	[0.0156981945 s : 510.88 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\suda\system\resource\modules/dxkite-suda/module.json
+	[0.0192601681 s : 708.66 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\app\modules/app/module.json
+	[0.0197529793 s : 711.34 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:329]		live modules	["demo\/app:1.0.0-dev","dxkite\/suda:1.0.6"]
+	[0.0201251507 s : 711.41 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Hook.php:31]		suda\core\Hook#loadConfig	E:\website\suda-study\app\modules/app/resource/config/listener.json
+	[0.0208439827 s : 713.17 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:117]		suda\template\Manager#theme	change themes:default
+	[0.0212831497 s : 730.49 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0214509964 s : 730.47 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0215811729 s : 729.3 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init application 0.010325s
+	[0.0216481686 s : 731.65 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:357]		reachable modules	["demo\/app:1.0.0-dev"]
+	[0.0216841698 s : 731.8 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:71]		suda\core\Router#load	load module:demo/app:1.0.0-dev path:E:\website\suda-study\app\modules/app
+	[0.0229930878 s : 793.95 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:76]		suda\core\Router#load	loading simple route from file E:\website\suda-study\app\modules/app/resource/config/router.json
+	[0.0247750282 s : 793.08 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init router 0.003146s
+	[0.0248382092 s : 797.02 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args [{}]
+	[0.0249230862 s : 794.2 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process dispatch 0.000099s
+	[0.0254981518 s : 825.24 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:375]		suda\core\Application#activeModule	active module demo/app:1.0.0-dev
+	[0.0257220268 s : 825.44 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:381]		suda\core\Application#activeModule	set locale zh-CN
+	[0.0268380642 s : 828.25 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:97]		parse command cn\atd3\response\IndexResponse->onRequest	["cn\\atd3\\response\\IndexResponse->onRequest","cn\\atd3\\response\\IndexResponse","->","onRequest"]
+	[0.0274481773 s : 847.85 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command cn\atd3\response\IndexResponse->onRequest with args [{}]
+	[0.0297181606 s : 854.95 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:133]		suda\template\compiler\suda\Compiler#compile	process compile demo/app:1.0.0-dev:index 0.001293s
+	[0.0475411415 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\SQLQuery.php:263]		suda\archive\Connection#connect	process connect database 0.011386s
+	[0.0476632118 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\Connection.php:83]		suda\archive\Connection#connect	connected (0) DB Connection {mysql:host=127.0.0.1;charset=utf8;port=3306}
+	[0.0521430969 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "show columns from dx_test;" 0.004146s
+	[0.0521991253 s : 1.11 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		show columns from dx_test;	[]
+	[0.1131370068 s : 1.14 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:146]		suda\archive\RawQuery#__query	process SQL Query 0 "INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);" 0.058625s
+	[0.1133000851 s : 1.14 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);	{"name0":{"name":"name","value":"dxkite"},"value1":{"name":"value","value":"2018-07-31 20:44:43 get request  from 127.0.0.1"}}
+	[0.1141581535 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;" 0.000375s
+	[0.1142420769 s : 1.16 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;	[]
+	[0.1145360470 s : 1.14 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:99]		start render	demo/app:1.0.0-dev:index
+	[0.1150159836 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:91]		suda\template\compiler\suda\Template#echo	process render demo/app:1.0.0-dev:index 0.000402s
+	[0.1150829792 s : 1.15 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:107]		free render [3247]	demo/app:1.0.0-dev:index
+	[0.1151201725 s : 1.14 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:59]		suda\template\compiler\suda\Template#render	echo demo/app:1.0.0-dev:index
+	[0.1156311035 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:336]		suda\core\Router#runRouter	process request 0.088861s
+	[0.1156730652 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process run router 0.090187s
+	[0.1156971455 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process run request 0.090877s
+	[0.1157929897 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:140]		suda\core\Debug#timeEnd	process before shutdown 0.000072s
+	[0.1158540249 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.1160240173 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:150]		suda\core\Cache#gc	process cache gc 0.000102s
+	[0.1161019802 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.1161592007 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:152]		suda\core\System#onShutdown	connection status normal
+	[0.1161921024 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:155]		suda\core\System#onShutdown	system shutdown
+	[0.1162261963 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:156]		suda\core\Debug#timeEnd	process shutdown 0.000398s
+	[0.1163330078 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Debug.php:406]		suda\core\Debug#afterSystemRun	process system 0.106166s
+=====f4d6e4=====0.1164641380=====1.1119 MB:1.5292 MB=====9:10.0072 MB=====
+
+=====90b6e5=====127.0.0.1=====debug=====
+127.0.0.1	2018-07-31 20:45:25	GET	/
+	[0.0198619366 s : 345.26 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:58]		suda\core\System#init	system init
+	[0.0238590240 s : 432.97 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:111]		suda\core\System#readManifast	reading manifast file
+	[0.0244700909 s : 435.47 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:104]		suda\core\System#console	loading application suda\core\Application from E:\website\suda-study\public/../app
+	[0.0259230137 s : 508.07 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:81]		suda\core\Application#__construct	application load E:\website\suda-study\public/../app
+	[0.0281031132 s : 510.88 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\suda\system\resource\modules/dxkite-suda/module.json
+	[0.0355129242 s : 708.66 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\app\modules/app/module.json
+	[0.0374231339 s : 711.34 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:329]		live modules	["demo\/app:1.0.0-dev","dxkite\/suda:1.0.6"]
+	[0.0381009579 s : 711.41 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Hook.php:31]		suda\core\Hook#loadConfig	E:\website\suda-study\app\modules/app/resource/config/listener.json
+	[0.0395381451 s : 713.17 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:117]		suda\template\Manager#theme	change themes:default
+	[0.0401880741 s : 730.49 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0404100418 s : 730.47 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0405550003 s : 729.3 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init application 0.020249s
+	[0.0406291485 s : 731.65 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:357]		reachable modules	["demo\/app:1.0.0-dev"]
+	[0.0406689644 s : 731.8 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:71]		suda\core\Router#load	load module:demo/app:1.0.0-dev path:E:\website\suda-study\app\modules/app
+	[0.0426859856 s : 793.95 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:76]		suda\core\Router#load	loading simple route from file E:\website\suda-study\app\modules/app/resource/config/router.json
+	[0.0446100235 s : 793.08 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init router 0.004000s
+	[0.0446879864 s : 797.02 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args [{}]
+	[0.0448081493 s : 794.2 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process dispatch 0.000137s
+	[0.0464210510 s : 825.24 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:375]		suda\core\Application#activeModule	active module demo/app:1.0.0-dev
+	[0.0470259190 s : 825.44 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:381]		suda\core\Application#activeModule	set locale zh-CN
+	[0.0566830635 s : 828.25 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:97]		parse command cn\atd3\response\IndexResponse->onRequest	["cn\\atd3\\response\\IndexResponse->onRequest","cn\\atd3\\response\\IndexResponse","->","onRequest"]
+	[0.0578870773 s : 847.85 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command cn\atd3\response\IndexResponse->onRequest with args [{}]
+	[0.0640480518 s : 854.95 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:133]		suda\template\compiler\suda\Compiler#compile	process compile demo/app:1.0.0-dev:index 0.003374s
+	[0.0948030949 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\SQLQuery.php:263]		suda\archive\Connection#connect	process connect database 0.002308s
+	[0.0949051380 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\Connection.php:83]		suda\archive\Connection#connect	connected (0) DB Connection {mysql:host=127.0.0.1;charset=utf8;port=3306}
+	[0.1096630096 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "show columns from dx_test;" 0.013767s
+	[0.1098530293 s : 1.11 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		show columns from dx_test;	[]
+	[0.1766159534 s : 1.14 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:146]		suda\archive\RawQuery#__query	process SQL Query 0 "INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);" 0.057036s
+	[0.1767361164 s : 1.14 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);	{"name0":{"name":"name","value":"dxkite"},"value1":{"name":"value","value":"2018-07-31 20:45:25 get request  from 127.0.0.1"}}
+	[0.1775240898 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;" 0.000481s
+	[0.1776311398 s : 1.16 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;	[]
+	[0.1777989864 s : 1.14 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:99]		start render	demo/app:1.0.0-dev:index
+	[0.1782600880 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:91]		suda\template\compiler\suda\Template#echo	process render demo/app:1.0.0-dev:index 0.000407s
+	[0.1783239841 s : 1.15 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:107]		free render [3379]	demo/app:1.0.0-dev:index
+	[0.1783530712 s : 1.14 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:59]		suda\template\compiler\suda\Template#render	echo demo/app:1.0.0-dev:index
+	[0.1792831421 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:336]		suda\core\Router#runRouter	process request 0.122694s
+	[0.1793589592 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process run router 0.133573s
+	[0.1793940067 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process run request 0.134730s
+	[0.1796159744 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:140]		suda\core\Debug#timeEnd	process before shutdown 0.000183s
+	[0.1796851158 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.1798670292 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:150]		suda\core\Cache#gc	process cache gc 0.000121s
+	[0.1799161434 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.1799609661 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:152]		suda\core\System#onShutdown	connection status normal
+	[0.1799890995 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:155]		suda\core\System#onShutdown	system shutdown
+	[0.1800179482 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:156]		suda\core\Debug#timeEnd	process shutdown 0.000353s
+	[0.1801280975 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Debug.php:406]		suda\core\Debug#afterSystemRun	process system 0.166981s
+=====90b6e5=====0.1802401543=====1.1119 MB:1.5292 MB=====6:6.6714 MB=====
+
+=====bacf1e=====127.0.0.1=====normal=====
+127.0.0.1	2018-07-31 20:53:53	GET	/
+=====bacf1e=====0.0697240829=====1.0996 MB:1.5075 MB=====15:16.4941 MB=====
+
+=====00fa24=====127.0.0.1=====normal=====
+127.0.0.1	2018-07-31 20:54:11	GET	/
+=====00fa24=====0.1188449860=====1.0996 MB:1.5075 MB=====9:9.8966 MB=====
+
+=====bd89a2=====127.0.0.1=====normal=====
+127.0.0.1	2018-07-31 20:57:35	GET	/
+=====bd89a2=====0.4146909714=====1.0998 MB:1.5076 MB=====3:3.2994 MB=====
+
+=====566c9f=====127.0.0.1=====debug=====
+127.0.0.1	2018-07-31 20:57:55	GET	/
+	[0.0158779621 s : 345.09 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:58]		suda\core\System#init	system init
+	[0.0168340206 s : 432.8 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:111]		suda\core\System#readManifast	reading manifast file
+	[0.0171968937 s : 435.3 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:104]		suda\core\System#console	loading application suda\core\Application from E:\website\suda-study\public/../app
+	[0.0181210041 s : 507.9 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:81]		suda\core\Application#__construct	application load E:\website\suda-study\public/../app
+	[0.0189838409 s : 510.71 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\suda\system\resource\modules/dxkite-suda/module.json
+	[0.0228638649 s : 708.49 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\app\modules/app/module.json
+	[0.0235779285 s : 711.17 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:329]		live modules	["demo\/app:1.0.0-dev","dxkite\/suda:1.0.6"]
+	[0.0239009857 s : 711.24 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Hook.php:31]		suda\core\Hook#loadConfig	E:\website\suda-study\app\modules/app/resource/config/listener.json
+	[0.0247468948 s : 713 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:117]		suda\template\Manager#theme	change themes:default
+	[0.0251898766 s : 730.32 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0253219604 s : 730.3 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0254600048 s : 729.13 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init application 0.009472s
+	[0.0255310535 s : 731.48 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:357]		reachable modules	["demo\/app:1.0.0-dev"]
+	[0.0255658627 s : 731.63 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:71]		suda\core\Router#load	load module:demo/app:1.0.0-dev path:E:\website\suda-study\app\modules/app
+	[0.0267758369 s : 793.78 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:76]		suda\core\Router#load	loading simple route from file E:\website\suda-study\app\modules/app/resource/config/router.json
+	[0.0281829834 s : 792.91 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init router 0.002673s
+	[0.0282528400 s : 796.84 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args [{}]
+	[0.0283038616 s : 794.02 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process dispatch 0.000068s
+	[0.0289359093 s : 825.07 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:375]		suda\core\Application#activeModule	active module demo/app:1.0.0-dev
+	[0.0290658474 s : 825.27 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:381]		suda\core\Application#activeModule	set locale zh-CN
+	[0.0300359726 s : 828.08 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:97]		parse command cn\atd3\response\IndexResponse->onRequest	["cn\\atd3\\response\\IndexResponse->onRequest","cn\\atd3\\response\\IndexResponse","->","onRequest"]
+	[0.0304930210 s : 847.68 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command cn\atd3\response\IndexResponse->onRequest with args [{}]
+	[0.0328178406 s : 854.78 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:133]		suda\template\compiler\suda\Compiler#compile	process compile demo/app:1.0.0-dev:index 0.001328s
+	[0.0377409458 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\SQLQuery.php:263]		suda\archive\Connection#connect	process connect database 0.000747s
+	[0.0378189087 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\Connection.php:83]		suda\archive\Connection#connect	connected (0) DB Connection {mysql:host=127.0.0.1;charset=utf8;port=3306}
+	[0.0427658558 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "show columns from dx_test;" 0.004716s
+	[0.0428290367 s : 1.11 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		show columns from dx_test;	[]
+	[0.1271419525 s : 1.14 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:146]		suda\archive\RawQuery#__query	process SQL Query 0 "INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);" 0.082241s
+	[0.1272349358 s : 1.14 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);	{"name0":{"name":"name","value":"dxkite"},"value1":{"name":"value","value":"2018-07-31 20:57:55 get request  from 127.0.0.1"}}
+	[0.1279070377 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;" 0.000368s
+	[0.1279819012 s : 1.16 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;	[]
+	[0.1283018589 s : 1.14 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:99]		start render	demo/app:1.0.0-dev:index
+	[0.1285929680 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:91]		suda\template\compiler\suda\Template#echo	process render demo/app:1.0.0-dev:index 0.000213s
+	[0.1286499500 s : 1.15 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:107]		free render [3904]	demo/app:1.0.0-dev:index
+	[0.1286900043 s : 1.15 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:59]		suda\template\compiler\suda\Template#render	echo demo/app:1.0.0-dev:index
+	[0.1289968491 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:336]		suda\core\Router#runRouter	process request 0.098971s
+	[0.1290340424 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process run router 0.100120s
+	[0.1290559769 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process run request 0.100823s
+	[0.1291649342 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:140]		suda\core\Debug#timeEnd	process before shutdown 0.000081s
+	[0.1292200089 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.1294078827 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:150]		suda\core\Cache#gc	process cache gc 0.000106s
+	[0.1294448376 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.1294710636 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:152]		suda\core\System#onShutdown	connection status normal
+	[0.1294898987 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:155]		suda\core\System#onShutdown	system shutdown
+	[0.1295099258 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:156]		suda\core\Debug#timeEnd	process shutdown 0.000310s
+	[0.1295850277 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Debug.php:406]		suda\core\Debug#afterSystemRun	process system 0.114416s
+=====566c9f=====0.1296479702=====1.1117 MB:1.5313 MB=====8:8.8939 MB=====
+
+=====165f31=====127.0.0.1=====debug=====
+127.0.0.1	2018-07-31 20:57:58	GET	/
+	[0.0095849037 s : 345.12 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:58]		suda\core\System#init	system init
+	[0.0106778145 s : 432.83 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:111]		suda\core\System#readManifast	reading manifast file
+	[0.0110278130 s : 435.33 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:104]		suda\core\System#console	loading application suda\core\Application from E:\website\suda-study\public/../app
+	[0.0119359493 s : 507.93 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:81]		suda\core\Application#__construct	application load E:\website\suda-study\public/../app
+	[0.0128118992 s : 510.74 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\suda\system\resource\modules/dxkite-suda/module.json
+	[0.0149369240 s : 708.52 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\app\modules/app/module.json
+	[0.0152528286 s : 711.2 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:329]		live modules	["demo\/app:1.0.0-dev","dxkite\/suda:1.0.6"]
+	[0.0154459476 s : 711.27 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Hook.php:31]		suda\core\Hook#loadConfig	E:\website\suda-study\app\modules/app/resource/config/listener.json
+	[0.0159959793 s : 713.03 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:117]		suda\template\Manager#theme	change themes:default
+	[0.0163998604 s : 730.35 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0165219307 s : 730.33 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0166509151 s : 729.16 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init application 0.006975s
+	[0.0167210102 s : 731.51 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:357]		reachable modules	["demo\/app:1.0.0-dev"]
+	[0.0167570114 s : 731.66 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:71]		suda\core\Router#load	load module:demo/app:1.0.0-dev path:E:\website\suda-study\app\modules/app
+	[0.0177910328 s : 793.81 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:76]		suda\core\Router#load	loading simple route from file E:\website\suda-study\app\modules/app/resource/config/router.json
+	[0.0192649364 s : 792.94 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init router 0.002560s
+	[0.0193519592 s : 796.88 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args [{}]
+	[0.0194249153 s : 794.05 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process dispatch 0.000091s
+	[0.0201678276 s : 825.1 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:375]		suda\core\Application#activeModule	active module demo/app:1.0.0-dev
+	[0.0204508305 s : 825.3 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:381]		suda\core\Application#activeModule	set locale zh-CN
+	[0.0217108727 s : 828.11 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:97]		parse command cn\atd3\response\IndexResponse->onRequest	["cn\\atd3\\response\\IndexResponse->onRequest","cn\\atd3\\response\\IndexResponse","->","onRequest"]
+	[0.0222089291 s : 847.71 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command cn\atd3\response\IndexResponse->onRequest with args [{}]
+	[0.0240178108 s : 854.81 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:133]		suda\template\compiler\suda\Compiler#compile	process compile demo/app:1.0.0-dev:index 0.000983s
+	[0.0290489197 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\SQLQuery.php:263]		suda\archive\Connection#connect	process connect database 0.000642s
+	[0.0291249752 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\Connection.php:83]		suda\archive\Connection#connect	connected (0) DB Connection {mysql:host=127.0.0.1;charset=utf8;port=3306}
+	[0.0330698490 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "show columns from dx_test;" 0.003681s
+	[0.0331330299 s : 1.11 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		show columns from dx_test;	[]
+	[0.1156518459 s : 1.14 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:146]		suda\archive\RawQuery#__query	process SQL Query 0 "INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);" 0.080250s
+	[0.1157288551 s : 1.14 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);	{"name0":{"name":"name","value":"dxkite"},"value1":{"name":"value","value":"2018-07-31 20:57:58 get request  from 127.0.0.1"}}
+	[0.1162688732 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;" 0.000295s
+	[0.1163249016 s : 1.16 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;	[]
+	[0.1164679527 s : 1.14 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:99]		start render	demo/app:1.0.0-dev:index
+	[0.1166479588 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:91]		suda\template\compiler\suda\Template#echo	process render demo/app:1.0.0-dev:index 0.000147s
+	[0.1166779995 s : 1.15 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:107]		free render [4036]	demo/app:1.0.0-dev:index
+	[0.1166999340 s : 1.15 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:59]		suda\template\compiler\suda\Template#render	echo demo/app:1.0.0-dev:index
+	[0.1169619560 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:336]		suda\core\Router#runRouter	process request 0.095273s
+	[0.1169979572 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process run router 0.096852s
+	[0.1170198917 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process run request 0.097696s
+	[0.1171369553 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:140]		suda\core\Debug#timeEnd	process before shutdown 0.000086s
+	[0.1171879768 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.1173310280 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:150]		suda\core\Cache#gc	process cache gc 0.000094s
+	[0.1173648834 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.1173908710 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:152]		suda\core\System#onShutdown	connection status normal
+	[0.1174089909 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:155]		suda\core\System#onShutdown	system shutdown
+	[0.1174268723 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:156]		suda\core\Debug#timeEnd	process shutdown 0.000258s
+	[0.1175010204 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Debug.php:406]		suda\core\Debug#afterSystemRun	process system 0.108794s
+=====165f31=====0.1175658703=====1.1118 MB:1.5322 MB=====9:10.0059 MB=====
+
+=====42ab7e=====127.0.0.1=====debug=====
+127.0.0.1	2018-07-31 21:06:04	GET	/
+	[0.0084969997 s : 345.12 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:58]		suda\core\System#init	system init
+	[0.0094890594 s : 432.83 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:111]		suda\core\System#readManifast	reading manifast file
+	[0.0098938942 s : 435.33 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:104]		suda\core\System#console	loading application suda\core\Application from E:\website\suda-study\public/../app
+	[0.0108709335 s : 507.93 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:81]		suda\core\Application#__construct	application load E:\website\suda-study\public/../app
+	[0.0120561123 s : 510.74 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\suda\system\resource\modules/dxkite-suda/module.json
+	[0.0160300732 s : 708.52 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\app\modules/app/module.json
+	[0.0165588856 s : 711.2 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:329]		live modules	["demo\/app:1.0.0-dev","dxkite\/suda:1.0.6"]
+	[0.0169279575 s : 711.27 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Hook.php:31]		suda\core\Hook#loadConfig	E:\website\suda-study\app\modules/app/resource/config/listener.json
+	[0.0176351070 s : 713.03 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:117]		suda\template\Manager#theme	change themes:default
+	[0.0180530548 s : 730.35 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0182180405 s : 730.33 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0183498859 s : 729.16 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init application 0.009709s
+	[0.0186738968 s : 731.51 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:357]		reachable modules	["demo\/app:1.0.0-dev"]
+	[0.0187230110 s : 731.66 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:71]		suda\core\Router#load	load module:demo/app:1.0.0-dev path:E:\website\suda-study\app\modules/app
+	[0.0206539631 s : 794.4 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:76]		suda\core\Router#load	loading simple route from file E:\website\suda-study\app\modules/app/resource/config/router.json
+	[0.0228071213 s : 794.45 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init router 0.004185s
+	[0.0228729248 s : 798.38 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args [{}]
+	[0.0229690075 s : 795.56 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process dispatch 0.000112s
+	[0.0237550735 s : 826.61 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:375]		suda\core\Application#activeModule	active module demo/app:1.0.0-dev
+	[0.0241410732 s : 826.8 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:381]		suda\core\Application#activeModule	set locale zh-CN
+	[0.0263729095 s : 829.62 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:97]		parse command cn\atd3\response\IndexResponse->onRequest	["cn\\atd3\\response\\IndexResponse->onRequest","cn\\atd3\\response\\IndexResponse","->","onRequest"]
+	[0.0274779797 s : 849.22 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command cn\atd3\response\IndexResponse->onRequest with args [{}]
+	[0.0331749916 s : 856.32 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:133]		suda\template\compiler\suda\Compiler#compile	process compile demo/app:1.0.0-dev:index 0.004192s
+	[0.0447309017 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\SQLQuery.php:263]		suda\archive\Connection#connect	process connect database 0.001970s
+	[0.0448660851 s : 1.08 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\Connection.php:83]		suda\archive\Connection#connect	connected (0) DB Connection {mysql:host=127.0.0.1;charset=utf8;port=3306}
+	[0.0512869358 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "show columns from dx_test;" 0.006095s
+	[0.0513789654 s : 1.11 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		show columns from dx_test;	[]
+	[0.0908169746 s : 1.14 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:146]		suda\archive\RawQuery#__query	process SQL Query 0 "INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);" 0.036312s
+	[0.0908870697 s : 1.14 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		INSERT INTO `dx_test` (`name`,`value`) VALUES (:name0,:value1);	{"name0":{"name":"name","value":"dxkite"},"value1":{"name":"value","value":"2018-07-31 21:06:04 get request  from 127.0.0.1"}}
+	[0.0913639069 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:131]		suda\archive\RawQuery#__query	process SQL Query 0 "SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;" 0.000257s
+	[0.0914130211 s : 1.16 MB]	[debug]	[E:\website\suda-study\suda\system\src\suda\archive\RawQuery.php:360]		SELECT `id`,`name`,`value` FROM `dx_test`  WHERE 1 ;	[]
+	[0.0915570259 s : 1.14 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:99]		start render	demo/app:1.0.0-dev:index
+	[0.0918641090 s : 1.16 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:91]		suda\template\compiler\suda\Template#echo	process render demo/app:1.0.0-dev:index 0.000264s
+	[0.0918979645 s : 1.15 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:107]		free render [4168]	demo/app:1.0.0-dev:index
+	[0.0919210911 s : 1.15 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:59]		suda\template\compiler\suda\Template#render	echo demo/app:1.0.0-dev:index
+	[0.0922429562 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:336]		suda\core\Router#runRouter	process request 0.066082s
+	[0.0922749043 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process run router 0.068556s
+	[0.0922958851 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process run request 0.069444s
+	[0.0923750401 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:140]		suda\core\Debug#timeEnd	process before shutdown 0.000056s
+	[0.0924088955 s : 1.12 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0925068855 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:150]		suda\core\Cache#gc	process cache gc 0.000061s
+	[0.0925359726 s : 1.12 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0925629139 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:152]		suda\core\System#onShutdown	connection status normal
+	[0.0925810337 s : 1.11 MB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:155]		suda\core\System#onShutdown	system shutdown
+	[0.0925989151 s : 1.11 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:156]		suda\core\Debug#timeEnd	process shutdown 0.000200s
+	[0.0926759243 s : 1.12 MB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Debug.php:406]		suda\core\Debug#afterSystemRun	process system 0.084884s
+=====42ab7e=====0.0927460194=====1.1132 MB:1.5344 MB=====11:12.2457 MB=====
+
+=====c358d9=====127.0.0.1=====debug=====
+127.0.0.1	2018-07-31 21:07:02	GET	/hello
+	[0.0069320202 s : 343.57 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:58]		suda\core\System#init	system init
+	[0.0083308220 s : 431.28 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:111]		suda\core\System#readManifast	reading manifast file
+	[0.0086808205 s : 433.78 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:104]		suda\core\System#console	loading application suda\core\Application from E:\website\suda-study\public/../app
+	[0.0095520020 s : 506.38 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:81]		suda\core\Application#__construct	application load E:\website\suda-study\public/../app
+	[0.0103688240 s : 509.2 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\suda\system\resource\modules/dxkite-suda/module.json
+	[0.0122399330 s : 706.98 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\app\modules/app/module.json
+	[0.0124988556 s : 709.66 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:329]		live modules	["demo\/app:1.0.0-dev","dxkite\/suda:1.0.6"]
+	[0.0126700401 s : 709.73 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Hook.php:31]		suda\core\Hook#loadConfig	E:\website\suda-study\app\modules/app/resource/config/listener.json
+	[0.0132038593 s : 711.48 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:117]		suda\template\Manager#theme	change themes:default
+	[0.0135478973 s : 728.8 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0136449337 s : 728.78 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0137739182 s : 727.61 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init application 0.006780s
+	[0.0138468742 s : 729.96 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:357]		reachable modules	["demo\/app:1.0.0-dev"]
+	[0.0138828754 s : 730.12 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:71]		suda\core\Router#load	load module:demo/app:1.0.0-dev path:E:\website\suda-study\app\modules/app
+	[0.0148198605 s : 792.85 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:76]		suda\core\Router#load	loading simple route from file E:\website\suda-study\app\modules/app/resource/config/router.json
+	[0.0163729191 s : 792.9 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init router 0.002552s
+	[0.0164418221 s : 796.84 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args [{}]
+	[0.0165619850 s : 794.02 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process dispatch 0.000133s
+	[0.0174319744 s : 825.06 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:375]		suda\core\Application#activeModule	active module demo/app:1.0.0-dev
+	[0.0176548958 s : 825.26 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:381]		suda\core\Application#activeModule	set locale zh-CN
+	[0.0186758041 s : 828.05 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:97]		parse command suda\core\route\Mapping::emptyResponse	["suda\\core\\route\\Mapping::emptyResponse","suda\\core\\route\\Mapping","::","emptyResponse"]
+	[0.0187449455 s : 827.3 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command suda\core\route\Mapping::emptyResponse with args [{}]
+	[0.0206689835 s : 834.88 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:133]		suda\template\compiler\suda\Compiler#compile	process compile demo/app:1.0.0-dev:hello 0.000945s
+	[0.0218009949 s : 865.18 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:99]		start render	demo/app:1.0.0-dev:hello
+	[0.0218579769 s : 881.32 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:91]		suda\template\compiler\suda\Template#echo	process render demo/app:1.0.0-dev:hello 0.000003s
+	[0.0218868256 s : 866.06 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:107]		free render [297]	demo/app:1.0.0-dev:hello
+	[0.0219099522 s : 865.45 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:59]		suda\template\compiler\suda\Template#render	echo demo/app:1.0.0-dev:hello
+	[0.0220630169 s : 862.76 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:336]		suda\core\Router#runRouter	process request 0.003402s
+	[0.0220909119 s : 862.2 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process run router 0.004697s
+	[0.0221118927 s : 861.88 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process run request 0.005694s
+	[0.0221898556 s : 861.6 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:140]		suda\core\Debug#timeEnd	process before shutdown 0.000057s
+	[0.0225589275 s : 874.68 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:150]		suda\core\Cache#gc	process cache gc 0.000056s
+	[0.0225958824 s : 876.93 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0226259232 s : 874.93 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:152]		suda\core\System#onShutdown	connection status normal
+	[0.0226438046 s : 874.88 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:155]		suda\core\System#onShutdown	system shutdown
+	[0.0226678848 s : 874.37 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:156]		suda\core\Debug#timeEnd	process shutdown 0.000449s
+	[0.0226938725 s : 875.92 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Debug.php:406]		suda\core\Debug#afterSystemRun	process system 0.016344s
+=====c358d9=====0.0227398872=====873.5938 KB:1.2556 MB=====44:37.5372 MB=====
+
+=====6f3c30=====127.0.0.1=====debug=====
+127.0.0.1	2018-07-31 21:10:41	GET	/hello
+	[0.0133090019 s : 343.57 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:58]		suda\core\System#init	system init
+	[0.0145151615 s : 431.28 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:111]		suda\core\System#readManifast	reading manifast file
+	[0.0148961544 s : 433.78 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:104]		suda\core\System#console	loading application suda\core\Application from E:\website\suda-study\public/../app
+	[0.0157241821 s : 506.38 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:81]		suda\core\Application#__construct	application load E:\website\suda-study\public/../app
+	[0.0167291164 s : 509.2 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\suda\system\resource\modules/dxkite-suda/module.json
+	[0.0193481445 s : 706.98 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:517]		suda\core\Application#registerModule	load module config E:\website\suda-study\app\modules/app/module.json
+	[0.0196940899 s : 709.66 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:329]		live modules	["demo\/app:1.0.0-dev","dxkite\/suda:1.0.6"]
+	[0.0200161934 s : 709.73 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Hook.php:31]		suda\core\Hook#loadConfig	E:\website\suda-study\app\modules/app/resource/config/listener.json
+	[0.0208261013 s : 711.48 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:117]		suda\template\Manager#theme	change themes:default
+	[0.0215702057 s : 728.8 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0218551159 s : 728.78 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0220541954 s : 727.61 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init application 0.008662s
+	[0.0221581459 s : 729.96 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:357]		reachable modules	["demo\/app:1.0.0-dev"]
+	[0.0222132206 s : 730.12 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:71]		suda\core\Router#load	load module:demo/app:1.0.0-dev path:E:\website\suda-study\app\modules/app
+	[0.0242011547 s : 792.85 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:76]		suda\core\Router#load	loading simple route from file E:\website\suda-study\app\modules/app/resource/config/router.json
+	[0.0258500576 s : 792.9 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process init router 0.003737s
+	[0.0259191990 s : 796.84 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args [{}]
+	[0.0260000229 s : 794.02 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process dispatch 0.000097s
+	[0.0266811848 s : 825.06 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:375]		suda\core\Application#activeModule	active module demo/app:1.0.0-dev
+	[0.0268912315 s : 825.26 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\Application.php:381]		suda\core\Application#activeModule	set locale zh-CN
+	[0.0281450748 s : 828.05 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:97]		parse command suda\core\route\Mapping::emptyResponse	["suda\\core\\route\\Mapping::emptyResponse","suda\\core\\route\\Mapping","::","emptyResponse"]
+	[0.0282120705 s : 827.3 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command suda\core\route\Mapping::emptyResponse with args [{}]
+	[0.0298991203 s : 834.88 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\Manager.php:133]		suda\template\compiler\suda\Compiler#compile	process compile demo/app:1.0.0-dev:hello 0.000790s
+	[0.0312891006 s : 865.24 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:99]		start render	demo/app:1.0.0-dev:hello
+	[0.0313761234 s : 881.38 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:91]		suda\template\compiler\suda\Template#echo	process render demo/app:1.0.0-dev:hello 0.000004s
+	[0.0314121246 s : 866.19 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:107]		free render [306]	demo/app:1.0.0-dev:hello
+	[0.0314421654 s : 865.58 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\template\compiler\suda\Template.php:59]		suda\template\compiler\suda\Template#render	echo demo/app:1.0.0-dev:hello
+	[0.0317530632 s : 862.82 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Router.php:336]		suda\core\Router#runRouter	process request 0.003625s
+	[0.0317900181 s : 862.27 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:85]		suda\core\Router#dispatch	process run router 0.005127s
+	[0.0318109989 s : 861.95 KB]	[info]	[E:\website\suda-study\suda\system\suda.php:7]		suda\core\System#run	process run request 0.005915s
+	[0.0319042206 s : 861.66 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:140]		suda\core\Debug#timeEnd	process before shutdown 0.000070s
+	[0.0323522091 s : 874.74 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:150]		suda\core\Cache#gc	process cache gc 0.000057s
+	[0.0323910713 s : 876.99 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\tool\Command.php:49]		suda\tool\Command#exec	exec command {closure command} with args []
+	[0.0324220657 s : 874.99 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:152]		suda\core\System#onShutdown	connection status normal
+	[0.0324411392 s : 874.95 KB]	[trace]	[E:\website\suda-study\suda\system\src\suda\core\System.php:155]		suda\core\System#onShutdown	system shutdown
+	[0.0324611664 s : 874.43 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\System.php:156]		suda\core\Debug#timeEnd	process shutdown 0.000532s
+	[0.0324881077 s : 875.98 KB]	[info]	[E:\website\suda-study\suda\system\src\suda\core\Debug.php:406]		suda\core\Debug#afterSystemRun	process system 0.019817s
+=====6f3c30=====0.0325520039=====873.6563 KB:1.2557 MB=====31:26.4486 MB=====
+
