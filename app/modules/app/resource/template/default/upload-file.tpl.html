@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Action PAGE</title>
+</head>
+<body>
+    <h2>文件上传页面</h2>
+    <p> {{ $:ip }} - {{ $:time }}</p>
+    
+<!-- 必须指定编码方式为 `multipart/form-data` -->
+<form action="@u" method="post" enctype="multipart/form-data">
+    <div>
+        <!-- 指定文件类型 -->
+        <input type="file" name="my_file_name">
+    </div>
+    <div>
+        <!-- 上传的同时可以上传数据 -->
+        <input type="text" name="my_text">
+    </div>
+    <div>
+        <button type="submit">上传文件</button>
+    </div>
+</form>
+
+<h3>上传的内容</h3>
+<div>
+    <h4>文件内容</h4>
+    @foreach ($:file as $key => $value)
+    <div>{{ $key}} => {{$value}}</div>
+    @endforeach
+</div>
+<div>{{$:text}}</div>
+
+</body>
+            
+</html>

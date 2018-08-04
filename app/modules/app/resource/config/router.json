@@ -18,5 +18,9 @@
     "form_action":{
         "url":"\/my-form-action",
         "class":"cn\\atd3\\response\\FormActionResponse"
+    },
+    "upload_file":{
+        "url":"\/upload-file",
+        "class":"cn\\atd3\\response\\uploadResponse"
     }
 }

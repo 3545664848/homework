@@ -119,4 +119,28 @@
      'hidden' => false,
      'dynamic' => false,
   )),
+  'demo/app:1.0.0-dev:upload_file' => 
+  suda\core\route\Mapping::__set_state(array(
+     'method' => 
+    array (
+    ),
+     'url' => '/upload-file',
+     'mapping' => '\\/upload\\-file',
+     'callback' => 'cn\\atd3\\response\\uploadResponse->onRequest',
+     'template' => NULL,
+     'source' => NULL,
+     'module' => 'demo/app:1.0.0-dev',
+     'name' => 'upload_file',
+     'role' => 1,
+     'types' => NULL,
+     'param' => NULL,
+     'value' => NULL,
+     'buffer' => true,
+     'host' => NULL,
+     'port' => NULL,
+     'scheme' => NULL,
+     'antiPrefix' => false,
+     'hidden' => false,
+     'dynamic' => false,
+  )),
 )

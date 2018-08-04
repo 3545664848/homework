@@ -1,0 +1,8 @@
+在超链接中打新窗口
+target="_blank"
+<a href="www.php.cn" target="_blank">php是世界上最好的语言</a>
+超链接提示属性title
+<a href="www.php.cn" target="_blank" title="跳转到php中文网">php是世界上最好的语言</a>
+标签
+<a href="#c1"> 标签一 </a>
+<a name="c1"> 标签一 </a>	
