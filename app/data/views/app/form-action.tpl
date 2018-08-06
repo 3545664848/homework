@@ -44,7 +44,7 @@
     
     
     <p> <?php echo htmlspecialchars(__($this->get("ip"))); ?> - <?php echo htmlspecialchars(__($this->get("time"))); ?></p>
-    <a href="http://localhost/dev.php/hello">place visit hello</a>
+    <a href="http://localhost/dev.php/hello">please visit hello</a>
     <p></p>
     <a href="http://ctf.ssleye.com/rot13.html">decode</a>
 </body>

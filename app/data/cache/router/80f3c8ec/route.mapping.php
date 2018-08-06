@@ -143,4 +143,28 @@
      'hidden' => false,
      'dynamic' => false,
   )),
+  'demo/app:1.0.0-dev:database' => 
+  suda\core\route\Mapping::__set_state(array(
+     'method' => 
+    array (
+    ),
+     'url' => '/database',
+     'mapping' => '\\/database',
+     'callback' => 'cn\\atd3\\response\\DBResponse->onRequest',
+     'template' => NULL,
+     'source' => NULL,
+     'module' => 'demo/app:1.0.0-dev',
+     'name' => 'database',
+     'role' => 1,
+     'types' => NULL,
+     'param' => NULL,
+     'value' => NULL,
+     'buffer' => true,
+     'host' => NULL,
+     'port' => NULL,
+     'scheme' => NULL,
+     'antiPrefix' => false,
+     'hidden' => false,
+     'dynamic' => false,
+  )),
 )

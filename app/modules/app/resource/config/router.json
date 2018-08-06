@@ -22,5 +22,9 @@
     "upload_file":{
         "url":"\/upload-file",
         "class":"cn\\atd3\\response\\uploadResponse"
+    },
+    "database":{
+        "url":"\/database",
+        "class":"cn\\atd3\\response\\DBResponse"
     }
 }
