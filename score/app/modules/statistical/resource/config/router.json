@@ -1,0 +1,14 @@
+{
+    "index": {
+        "url": "\/",
+        "class": "dxkite\\statistical\\response\\IndexResponse"
+    },
+    "table": {
+        "url": "\/{table_id:string}",
+        "class": "dxkite\\statistical\\response\\TableResponse"
+    },
+    "download": {
+        "url": "\/{table_id:string}\/download",
+        "class": "dxkite\\statistical\\response\\DownloadResponse"
+    }
+}

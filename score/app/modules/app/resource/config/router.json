@@ -1,0 +1,30 @@
+{
+    "index": {
+        "class": "cn\\atd3\\response\\IndexResponse",
+        "url": "\/"
+    },
+    "hello": {
+        "url": "\/hello",
+        "template": "hello"
+    },
+    "action_page": {
+        "url": "\/action-page",
+        "class": "cn\\atd3\\response\\ActionPageResponse"
+    },
+    "action_page_song": {
+        "url": "\/action-page-song",
+        "class": "cn\\atd3\\response\\ActionPageResponse_song"
+    },
+    "form_action":{
+        "url":"\/my-form-action",
+        "class":"cn\\atd3\\response\\FormActionResponse"
+    },
+    "upload_file":{
+        "url":"\/upload-file",
+        "class":"cn\\atd3\\response\\uploadResponse"
+    },
+    "database":{
+        "url":"\/database",
+        "class":"cn\\atd3\\response\\DBResponse"
+    }
+}

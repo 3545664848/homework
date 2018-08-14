@@ -1,0 +1,19 @@
+{
+    "name": "dxkite/statistical",
+    "namespace": "dxkite/statistical",
+    "authors": [{
+        "name": "dxkite",
+        "email": "dxkite@qq.com"
+    }],
+    "import": {
+        "share": {
+            "dxkite\\statistical": "share"
+        },
+        "src": {
+            "dxkite\\statistical\\response": "src"
+        }
+    },
+    "discription": "DXkite的成绩统计模块",
+    "require": {},
+    "version": "1.0.0"
+}

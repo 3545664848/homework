@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{$:name}} - 填写表单</title>
+</head>
+
+<body>
+    <h3>{{$:name}}</h3>
+    <form action="@u" method="post">
+    <table>
+        <tr>
+            <th>姓名</th>
+            <td>
+                <input type="text" name="name" />
+            </td>
+        </tr>
+        <tr>
+            <th>学号</th>
+            <td>
+                <input type="text" name="number" />
+            </td>
+        </tr>
+        @foreach ($:fields as $id => $field) 
+        <tr>
+            <th>{{$field['name']}}</th>
+            <td>
+                @if ($field['type'] == 'text')
+                    <textarea name="data[{{$id}}]" cols="30" rows="10" required></textarea>
+                @elseif ($field['type'] == 'number')
+                    <input type="number" name="data[{{$id}}]" required> 
+                @else
+                    <input type="text" name="data[{{$id}}]" required> 
+                @endif
+            </td>
+         @endforeach
+        </tr>
+        
+    </table>
+    <button>提交</button>
+</form>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{$:name}} - 填写表单</title>
+</head>
+
+<body>
+    <h3>{{$:name}}</h3>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>学号</th>
+            <th>操作</th>
+        </tr>
+
+        <tr>
+            <td>
+               table_id_1
+           </td>
+
+           <td>
+               学生XXX统计表-1
+           </td>
+
+           <td>
+               <a href="@u('table', 'table_id_1' )">填写</a>
+               <a href="@u('download','table_id_1')">下载</a>
+           </td>
+       </tr>
+
+        <tr>
+             <td>
+                table_id_2
+            </td>
+
+            <td>
+                学生XXX统计表-2
+            </td>
+
+            <td>
+                <a href="@u('table', 'table_id_2' )">填写</a>
+                <a href="@u('download','table_id_2')">下载</a>
+            </td>
+        </tr>
+        
+    </table>
+</body>
+
+</html>
